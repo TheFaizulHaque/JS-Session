@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let fruit = ["apple", "mango", "cherry", "berry"];
+        console.log(fruit);
+        console.log(fruit.length);
+        fruit.push("chiku"); // put element at the end
+        console.log(fruit);
+        fruit.unshift("banana"); // put element at the start
+        console.log(fruit);
+        fruit.pop(); // remove element from the end
+        console.log(fruit);
+        fruit.shift(); // remove element from the start
+        console.log(fruit);
+        // slice 
+        let leFruit = fruit.slice(2); // shows last any desire element (in this last 2 elements only)
+        console.log(leFruit);
+        // splice
+        fruit.splice(2);
+        console.log(fruit); // shows firt any desire element (in this first 2 elements only)
+        // arithmatic
+        let add = 2+3+3-5;
+        console.log(add);
+        // remainder (this "%" is known as MODULAS)  
+        let remainder = 20 % 9;
+        console.log(remainder);
+        // contactination 
+        let firstName = "Faizul";
+        let lastName = "Khan";
+        console.log(firstName + lastName);
+
+        let a = 5;
+        let b = "Race";
+        console.log(a + b);
+
+        let aA = "Race";
+        let bB = 5;
+        console.log(aA + bB);
+
+        let aaA = true; // true means +1
+        let bbB = 5;
+        console.log(aaA + bbB);
+
+        let aAA = 5;
+        let bBB = false; // false means 0
+        console.log(aAA + bBB);
+
+        let aAa = false; 
+        let bBb = true;
+        console.log(aAa + bBb); // 1 + 0 = 1
+        
+        // assignment operator
+        let hero = "Salman Khan";
+        let superhero = hero;
+        console.log(superhero);
+
+        let numBerr = 6;
+        console.log(numBerr - 5);
+
+        //NAN
+        let number = "race";
+        let num = 5;
+        console.log(number - num);
+
+        let numBer = "race";
+        console.log(numBer - 5);
+
+
+
+        // ASSIGNMENT OF DAY 2
+        // 1.
+        let city = ["Delhi", "Mumbai"];
+        city.unshift("Chennai");
+        console.log(city);
+
+        // 2.
+        let digits = [3, 4, 5, 6];
+        digits.unshift(1, 2);
+        console.log(digits);
+
+        // 3.
+        digits.pop();
+        console.log(digits);
+
+        // 4.
+        let numb = [1,2,3,4,5];
+        numb.shift();
+        console.log(numb);
+
+        // 5.
+        let digiNumb = [1,23,4,34,55,66,77,123,22];
+        console.log(digiNumb.length);
+
+        // 6.
+        let fName = "Sudhanshu Singh";
+        let lName = fName;
+        console.log(lName);
+
+
+    </script>
+</body>
+</html>
