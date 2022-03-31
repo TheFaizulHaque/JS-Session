@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // SWITCH OPERATOR 
+
+        // Who is Ranbir Kapoor?
+            let ranbirKapoor = "Actor";
+            switch (ranbirKapoor) {
+                case 'Doctor':
+                console.log("Doctor");
+                    break;
+            
+                case 'Politician':
+                console.log("Politician");
+                    break;
+
+                case 'Actor':
+                console.log("Actor");
+                    break;
+            }
+
+        // LOOPS
+
+        // 1. WHILE LOOP
+
+        let number = 11;
+        while (number <= 20) {
+            console.log(number);
+            number++;
+        }
+
+        let k = 0;
+        let arrFriends = [
+          "Aman",
+          "Achint",
+          "Faizy",
+          "Hood",
+          "Sudhanshu",
+          "Maanshu",
+        ];
+         console.log(arrFriends[arrFriends.length - 1]);// To print last element of array
+
+         while(k < arrFriends.length){
+          console.log(arrFriends[k]);
+         k++;
+        }
+
+        // 2. FOR LOOP
+
+        // for (initializer; condition; iterator) {
+        //     statement
+        // }
+
+        // for (let k = arrFriends.length - 1; k <= 0; k++) {
+        //     console.log(arrFriends[k]);
+        // }
+
+        // FUNCTION
+        //1.
+            function sayHello() {
+                alert("Hello there");
+            }
+            sayHello();
+        //2.
+            function sayGoodMorning(firstName, lastName) {
+                console.log("Good Morning " + firstName + " " + lastName);
+            }
+            sayGoodMorning("Sudhanshu", "Singh");
+        //3.
+            function ShowMessage() {
+                for(let i = 0; i < arguments.length; i++){
+                    console.log(arguments[i]);
+                }
+            }
+
+                ShowMessage("Steve", "Jobs", "sir");
+        //4. 
+            function Sum(x, y) {
+                return x + y;
+            };
+
+            let answer = Sum(10,20);
+            console.log(answer);
+
+        //5. 
+            function friends(bestFriend, goodFriend) {
+                console.log("Is my best friend " + bestFriend);
+                console.log("Is my good friend " + goodFriend);
+            }
+            friends("Sudhanshu", "Hud")
+            friends("Achint", "Manshu")
+
+            function compare(a,b) {
+                if(a < b ) {
+                    console.log(b + "is bigger than " +  a);
+                } 
+                else if (a > b) {
+                    console.log(b + "is lesser than " + a);
+                }
+                else {
+                    console.log(a + " is equal to " + b);
+                }
+            }
+            compare(5, 5);
+        
+    </script>
+</body>
+</html>
